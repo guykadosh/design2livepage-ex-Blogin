@@ -1,0 +1,15 @@
+.main-layout {
+  /* max-width: 980px; */
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-layout > * {
+  margin-bottom: 48px;
+}

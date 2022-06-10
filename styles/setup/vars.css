@@ -1,0 +1,24 @@
+:root {
+  /* Text colors */
+  --clr1: #606060;
+  --clr2: #4f4e4e;
+  --clr3: #c2c1c1;
+  --clr4: #a6a6a6;
+  --clr5: #818181;
+
+  /* Page colors */
+  --hover-clr: #58c93a;
+  --header-bgc: #292929;
+  --border-color: #e1e0e0;
+  --fb-color: #516fad;
+  --scl-color: #e5e5e5;
+  --ftr-color: #f8f8f8;
+
+  /* spacing */
+  --margin-btm: 70px;
+  --margin-btm-medium: 35px;
+
+  --s: 600px;
+  --m: 890px;
+  --w: 1060px;
+}

@@ -1,0 +1,14 @@
+.paging {
+  height: 76px;
+  border: 1px solid #e1e0e0;
+  border-top: none;
+  padding: 0 2em;
+}
+
+.paging a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 0.05em;
+  color: var(--clr5);
+}
