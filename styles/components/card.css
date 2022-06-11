@@ -33,7 +33,8 @@
   border-color: var(--hover-clr);
 }
 
-.card-content .card-btn span {
+.card-content .card-btn::after {
+  content: '→';
   display: inline-block;
   position: absolute;
   opacity: 0;
@@ -46,6 +47,6 @@
   transition: opacity 0.1s;
 }
 
-.card-content .card-btn span:hover {
+.card-content .card-btn:hover::after {
   opacity: 1;
 }

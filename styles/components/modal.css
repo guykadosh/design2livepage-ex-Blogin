@@ -3,7 +3,6 @@
 
   position: fixed;
   display: none;
-  flex-direction: column;
 
   background-color: #fff;
   border-radius: 9px;
@@ -18,8 +17,31 @@
   transform: translate(-50%, -50%);
 }
 
-body.modal-open .modal {
+.modal-content {
   display: flex;
+  flex-direction: column;
+}
+
+.modal-content h2 {
+  margin-bottom: 1rem;
+}
+
+.modal .modal-content button {
+  width: 120px;
+  height: 30px;
+
+  align-self: center;
+  margin-top: 20px;
+
+  background-color: transparent;
+  border-radius: 9px;
+  border: 1px solid #777;
+
+  cursor: pointer;
+}
+
+body.modal-open .modal {
+  display: block;
   animation: fadeIn 1s, slideIn 0.3s linear;
 }
 
