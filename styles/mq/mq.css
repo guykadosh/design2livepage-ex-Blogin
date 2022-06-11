@@ -24,10 +24,7 @@
   .main-header .main-nav > * {
     border-block-end: 1px solid #ccc;
     width: 100%;
-  }
-
-  .main-header .main-nav > *:hover {
-    border-bottom-color: var(--hover-clr);
+    height: 75px;
   }
 
   .main-header .main-nav > *:not(:last-child) {
@@ -37,11 +34,10 @@
   .main-header .main-nav li:first-child {
     margin-top: 7rem;
     border-block-start: 1px solid #ccc;
-    /* display: block; */
   }
-  .main-header .main-nav a {
-    padding: 20px 20px;
-    display: flex;
+
+  .main-header .main-nav .nav-link {
+    line-height: 75px;
   }
 
   .main-header button {
