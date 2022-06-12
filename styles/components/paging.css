@@ -1,4 +1,4 @@
-.paging {
+.main-layout.paging {
   height: 76px;
   border: 1px solid #e1e0e0;
   border-top: none;
@@ -11,4 +11,8 @@
   font-size: 1.125rem;
   letter-spacing: 0.05em;
   color: var(--clr5);
+}
+
+.paging a:hover {
+  color: var(--clr1);
 }

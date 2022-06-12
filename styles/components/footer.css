@@ -1,7 +1,7 @@
 .main-footer {
   background-color: var(--ftr-color);
   text-align: center;
-  padding: 62px 30px 80px;
+  padding: 3.75em 2.2em 5em;
 }
 
 .main-footer .main-logo {
@@ -17,9 +17,7 @@
 
 .main-footer .footer-social li {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding: 0.6rem;
+
   background-color: var(--scl-color);
   cursor: pointer;
 }
@@ -41,9 +39,15 @@
 }
 
 .footer-social a {
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   color: #fff;
 }
 
 .footer-social > *:not(:first-child) {
-  margin-inline-start: 30px;
+  margin-inline-start: 2.2em;
 }
