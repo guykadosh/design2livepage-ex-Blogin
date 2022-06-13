@@ -1,146 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      defer
-      src="https://kit.fontawesome.com/0d3f998bf1.js"
-      crossorigin="anonymous"
-    ></script>
+    <script defer src="https://kit.fontawesome.com/0d3f998bf1.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="styles/styles.css" />
 
     <script src="js/main.js"></script>
     <title>Blogin</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="main-screen"></div>
 
     <header class="main-header-container">
-      <div class="main-header main-layout flex space-between align-center">
-        <div class="main-logo">Blogin<span>.</span></div>
-        <ul class="main-nav flex clean-list align-center">
-          <li class="dropdown">
-            <a href="#" class="dropbtn nav-link active">Journey</a>
-            <ul class="dropdown-content clean-list">
-              <li><a href="#">October 2016</a></li>
-              <li><a href="#">January 2017</a></li>
-              <li><a href="#">July 2017</a></li>
+        <div class="main-header main-layout flex space-between align-center">
+            <div class="main-logo">Blogin<span>.</span></div>
+            <ul class="main-nav flex clean-list align-center">
+                <li class="dropdown">
+                    <a href="#" class="dropbtn nav-link active">Journey</a>
+                    <ul class="dropdown-content clean-list">
+                        <li><a href="#">October 2016</a></li>
+                        <li><a href="#">January 2017</a></li>
+                        <li><a href="#">July 2017</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Work</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
             </ul>
-          </li>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="#" class="nav-link">Work</a></li>
-          <li><a href="#" class="nav-link">Contact</a></li>
-        </ul>
-        <button onclick="toggleMenu()" class="menu-toggle">☰</button>
-      </div>
+            <button onclick="toggleMenu()" class="menu-toggle">☰</button>
+        </div>
     </header>
     <main class="main-content main-layout">
-      <div class="card flex">
-        <img src="img/001.jpg" alt="" class="card-image" />
-        <div class="card-content flex">
-          <h2 class="card-title">
-            DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
-          </h2>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur...
-          </p>
-          <button class="card-btn" onclick="toggleModal()">
+        <div class="card flex">
+            <img src="img/001.jpg" alt="" class="card-image" />
+            <div class="card-content flex">
+                <h2 class="card-title">
+                    DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
+                </h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="card-btn" onclick="toggleModal()">
             Continue Reading
           </button>
+            </div>
         </div>
-      </div>
-      <div class="card flex">
-        <img src="img/002.jpg" alt="" class="card-image" />
-        <div class="card-content flex">
-          <h2 class="card-title">
-            DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
-          </h2>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur...
-          </p>
-          <button class="card-btn" onclick="toggleModal()">
+        <div class="card flex">
+            <img src="img/002.jpg" alt="" class="card-image" />
+            <div class="card-content flex">
+                <h2 class="card-title">
+                    DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
+                </h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="card-btn" onclick="toggleModal()">
             Continue Reading
           </button>
+            </div>
         </div>
-      </div>
-      <div class="card flex">
-        <img src="img/003.jpg" alt="" class="card-image" />
-        <div class="card-content flex">
-          <h2 class="card-title">
-            DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
-          </h2>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur...
-          </p>
-          <button class="card-btn" onclick="toggleModal()">
+        <div class="card flex">
+            <img src="img/003.jpg" alt="" class="card-image" />
+            <div class="card-content flex">
+                <h2 class="card-title">
+                    DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
+                </h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="card-btn" onclick="toggleModal()">
             Continue Reading
           </button>
+            </div>
         </div>
-      </div>
     </main>
     <section class="paging flex space-between align-center main-layout">
-      <a href="#" class="btn-prev">← Previous</a>
-      <a href="#" class="btn-prev">Next →</a>
+        <a href="#" class="btn-prev">← Previous</a>
+        <a href="#" class="btn-prev">Next →</a>
     </section>
     <footer class="main-footer flex flex-column">
-      <div class="main-logo">Blogin<span>.</span></div>
-      <p>
-        © Guy Kadosh - 2014 Blogin.com - All Rights Reserved - Find more free
-        Templates at Pixelhint.com
-      </p>
+        <div class="main-logo">Blogin<span>.</span></div>
+        <p>
+            © Guy Kadosh - 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com
+        </p>
 
-      <ul class="footer-social flex align-center justify-center clean-list">
-        <li class="fb-link">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        </li>
-        <li class="twitter-link">
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li class="be-link">
-          <a href="#"><i class="fa-brands fa-behance"></i></a>
-        </li>
-        <li class="drib-link">
-          <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-        </li>
-      </ul>
+        <ul class="footer-social flex align-center justify-center clean-list">
+            <li class="fb-link">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="twitter-link">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="be-link">
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </li>
+            <li class="drib-link">
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </li>
+        </ul>
     </footer>
 
     <div class="modal">
-      <div class="modal-content">
-        <h2 class="modal-title">
-          DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
-        </h2>
-        <p>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
-          deserunt mollit anim id est laborum. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur pariatur...
-        </p>
-        <button class="modal-btn" onclick="toggleModal()">Close</button>
-      </div>
+        <div class="modal-content">
+            <h2 class="modal-title">
+                DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.
+            </h2>
+            <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur pariatur...
+            </p>
+            <button class="modal-btn" onclick="toggleModal()">Close</button>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>

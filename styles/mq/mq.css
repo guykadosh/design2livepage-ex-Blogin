@@ -30,6 +30,11 @@
     z-index: 100;
   }
 
+  body.menu-open .main-screen {
+    pointer-events: auto;
+    opacity: 1;
+  }
+
   .main-header .main-nav > * {
     border: none;
     width: 100%;
